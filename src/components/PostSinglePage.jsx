@@ -1,7 +1,7 @@
 import { Container, Typography } from '@material-ui/core'
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { useFetchData } from '../utils/useFetch'
+import { useFetchData } from '../utils/useFetchData'
 import { Comments } from './Comments'
 
 export const PostSinglePage = () => {

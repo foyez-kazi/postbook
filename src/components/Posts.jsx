@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Container, Typography, makeStyles } from '@material-ui/core'
-import { useFetchData } from '../utils/useFetch'
+import { useFetchData } from '../utils/useFetchData'
 import { Post } from './Post'
 
 const useStyles = makeStyles({
