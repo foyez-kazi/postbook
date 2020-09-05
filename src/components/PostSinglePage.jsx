@@ -11,7 +11,9 @@ export const PostSinglePage = () => {
   )
 
   return !post.id ? (
-    <p>Loading...</p>
+    <Container maxWidth="md">
+      <p>Loading...</p>
+    </Container>
   ) : (
     <Container maxWidth="md">
       <Typography variant="h4">{post.title}</Typography>

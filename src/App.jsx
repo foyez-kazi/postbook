@@ -5,7 +5,7 @@ import { PostSinglePage } from './components/PostSinglePage'
 import { Layout } from './components/Layout'
 import { NotFound } from './components/NotFound'
 
-function App() {
+const App = () => {
   return (
     <Layout>
       <Switch>
